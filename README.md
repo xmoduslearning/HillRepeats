@@ -21,17 +21,17 @@ Python 3.6+
 HillRepeats.py is a command-line script that takes an activity file and the name of a hill that this activity file contains interval training sessions for.  See the data/activities folder for sample activities.  Currently all actitivies are for a hill near UBC, which is called "ubc" in the configuration.
 
 ```
-python HillRepeats.py ..\data\activities\ubc_hill_repeats_2013-09-23.txt ubc
+python HillRepeats.py ../data/activities/ubc_hill_repeats_2013-09-23.txt ubc
 ```
 
 After successfully running this script (from the src folder) you should see the following new files:
 
 ```
-data\intervals\ubc_hill_repeats_2013-09-23.txt_interval_0.csv
-data\intervals\ubc_hill_repeats_2013-09-23.txt_interval_1.csv
-data\intervals\ubc_hill_repeats_2013-09-23.txt_interval_2.csv
-data\intervals\ubc_hill_repeats_2013-09-23.txt_interval_3.csv
-data\intervals\ubc_hill_repeats_2013-09-23.txt_summary.txt
+data/intervals/ubc_hill_repeats_2013-09-23.txt_interval_0.csv
+data/intervals/ubc_hill_repeats_2013-09-23.txt_interval_1.csv
+data/intervals/ubc_hill_repeats_2013-09-23.txt_interval_2.csv
+data/intervals/ubc_hill_repeats_2013-09-23.txt_interval_3.csv
+data/intervals/ubc_hill_repeats_2013-09-23.txt_summary.txt
 ```
 
 The "interval" files are CSV files with the individual data points.  The "summary" file contains a set of summary metrics for all of the intervals found.
