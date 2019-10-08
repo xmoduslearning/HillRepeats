@@ -24,6 +24,18 @@ HillRepeats.py is a command-line script that takes an activity file and the name
 python HillRepeats.py ../data/activities/ubc_hill_repeats_2013-09-23.txt ubc
 ```
 
+Note: On systems with both Python 2 and Python 3 installed, for example, macOS, you may need to call the script with "python3" instead of just "python".
+
+To test your version use "python -V".
+```
+python -V
+```
+
+Calling the script with python3 explicitly.
+```
+python3 HillRepeats.py ../data/activities/ubc_hill_repeats_2013-09-23.txt ubc
+```
+
 After successfully running this script (from the src folder) you should see the following new files:
 
 ```
