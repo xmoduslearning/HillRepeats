@@ -69,5 +69,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* SFU SciProg for inviting me to give a seminar to research students at SFU
+* [SFU SciProg](http://sciprog.ca/) for inviting me to give a seminar to research students at SFU
 * The template for this README.md was provided by: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2/
